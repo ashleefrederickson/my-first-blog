@@ -25,7 +25,7 @@ SECRET_KEY = 'ug_%5rgiem%1eir(e$g_)s^0_8!#@kk2z5+k7y30yd*0!%=e!7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'mildfred.pythonanwhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'mildfred.pythonanywhere.com']
 
 
 # Application definition
