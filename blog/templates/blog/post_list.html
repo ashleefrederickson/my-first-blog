@@ -1,19 +1,11 @@
-<html>
-  <head>
-      <title> Ashlee's blog</title>
-  </head>
-  <body>
-      <div>
-        <hr><a href=""> Ashlee's blog</a></h1>
-      </div>
-{% for posts in posts %}
-    {{ post }}
+<div>
+        <h1><a href="/"> Ashlee's Blog</a></h1>
+</div>
+
+{% for post in posts %}
+    </div>
+        <p>published: {{ post.published_date }}</p>
+        <h1><a href="">{{ post.title }}</a><h1>
+        <p>{{ post.text|linebreaksbr }}</p>
+    </div>
 {% endfor %}
-{{ posts }}
-      </div>
-        <h2><a href="">My first post</a></h2>
-        <p> Here is a list of things that Ashlee likes:</p>
-      <ul><li>Maxwell</li><li>Millie<li>Khloe<li>Tut and Albert</li></ul>
-      </div>
-  </body>
-<html>
